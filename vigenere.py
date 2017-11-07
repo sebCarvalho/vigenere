@@ -10,7 +10,6 @@ alphabet = ['b','a','d','c','f','d','h','g','j','i','l','k','n','m','p','o','r',
 
 # ------------------------------------------------ FONCTION DE CRYPTAGE -------------------------------------- #
 def crypte ( mess , cle ): #CHIFFREMENT POLYALPHABETIQUE PAR SUBSTITUTION (CRYPTAGE DE VIGENERE)
-	print "Votre message : " , mess
 	t_mess = len(mess)-1
 	t_cle = len(cle)-1
 	mess_crpt = " "
